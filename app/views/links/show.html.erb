@@ -1,0 +1,5 @@
+<h1>Link Stats for <%= @link.slug%></h1>
+<h3>Visits: <%= @link.visit_count %></h3>
+
+<%= link_to 'Edit', "/links/#{@link.id}/edit" %>
+<%= link_to 'Delete', "/links/#{@link.id}", method: :delete %>

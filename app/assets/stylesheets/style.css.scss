@@ -1,0 +1,29 @@
+body {
+  background-image: image-url("symphony.png");
+  font-family: "Andale Mono",AndaleMono,monospace;
+}
+
+.navbar-brand {
+  font-family: 'Space Mono', monospace;
+  font-size: 250%;
+  font-weight: bold;
+} 
+
+table, td, th {
+  border: 1px solid black;
+  background-image: image-url("extra_clean_paper.png");
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  height: 50px;
+  text-align: center;
+}
+
+td {
+  height: 30px;
+  text-align: center;
+}

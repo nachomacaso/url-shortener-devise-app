@@ -1,0 +1,13 @@
+<h1>Edit Link</h1>
+
+<%= form_tag "/links/#{ @link.id }", method: :patch do %>
+  <div>
+    <%= label_tab :slug %>
+    <%= text_field_tag :slug, @link.slug %>
+  </div>
+  <div>
+    <%= label_tab :target_url %>
+    <%= text_field_tag :target_url, @link.target_url %>
+  </div>
+  <%= submit_tag 'Submit' %>
+<% end %>
